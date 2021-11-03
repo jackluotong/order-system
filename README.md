@@ -1,5 +1,5 @@
 # order-system
-## this project is a order system using uni-app framework.
+## this project is an order system using uni-app framework.
 
 ### figma 原型/UI
 
