@@ -1,359 +1,286 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	    ,{
-            "path" : "pages/welcome/welcome",
-            "style" :                                                                                    
-            {
+    "pages": [
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "uni-app"
+            }
+        },
+        {
+            "path": "pages/welcome/welcome",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/walk-though/walk-though",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/walk-though/walk-though",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/sign-in/sign-in",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/sign-in/sign-in",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/forgot-password/forgot-password",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/forgot-password/forgot-password",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/reset-email/reset-email",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/reset-email/reset-email",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/sign-up/sign-up",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/sign-up/sign-up",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/login-by-phone-number/login-by-phone-number",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/login-by-phone-number/login-by-phone-number",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/confirm-phone-number/confirm-phone-number",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/confirm-phone-number/confirm-phone-number",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/enter-address/enter-address",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/enter-address/enter-address",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/type-location/type-location",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/type-location/type-location",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/home-page/home-page",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/home-page/home-page",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/featured-partners/featured-partners",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/featured-partners/featured-partners",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/single-restaurant/single-restaurant",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/single-restaurant/single-restaurant",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/add-to-order/add-to-order",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/add-to-order/add-to-order",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/your-orders/your-orders",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/your-orders/your-orders",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/add-payment-method/add-payment-method",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/add-payment-method/add-payment-method",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/filters/filters",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/filters/filters",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/search-restaurants/search-restaurants",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/search-restaurants/search-restaurants",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/search-food/search-food",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/search-food/search-food",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/searching-food/searching-food",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/searching-food/searching-food",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/search-results/search-results",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/search-results/search-results",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/your-orders24/your-orders24",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/your-orders24/your-orders24",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/confirm-order/confirm-order",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/confirm-order/confirm-order",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/order-complete/order-complete",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/order-complete/order-complete",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/account-settings/account-settings",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/account-settings/account-settings",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/profile-settings/profile-settings",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/profile-settings/profile-settings",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/change-password/change-password",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/change-password/change-password",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/payment-method/payment-method",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/payment-method/payment-method",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/card-list/card-list",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/card-list/card-list",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/locations/locations",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/locations/locations",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/add-social-accounts/add-social-accounts",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/add-social-accounts/add-social-accounts",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/refer-to-friend/refer-to-friend",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/refer-to-friend/refer-to-friend",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/search-refer-friend/search-refer-friend",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/search-refer-friend/search-refer-friend",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/scan-card/scan-card",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/scan-card/scan-card",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/browse-foods/browse-foods",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/browse-foods/browse-foods",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/find-restaurants/find-restaurants",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/find-restaurants/find-restaurants",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
-        }
-        ,{
-            "path" : "pages/single-restaurants/single-restaurants",
-            "style" :                                                                                    
-            {
+        },
+        {
+            "path": "pages/single-restaurants/single-restaurants",
+            "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
-            
         }
     ],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"condition" : { //模式配置，仅开发期间生效
-		"current": 0, //当前激活的模式(list 的索引项)
-		"list": [
-			{
-				"name": "", //模式名称
-				"path": "", //启动页面，必选
-				"query": "" //启动参数，在页面的onLoad函数里面得到
-			}
-		]
-	}
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "condition": {
+        //模式配置，仅开发期间生效
+        "current": 0, //当前激活的模式(list 的索引项)
+        "list": [
+            {
+                "name": "", //模式名称
+                "path": "", //启动页面，必选
+                "query": "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
 }
