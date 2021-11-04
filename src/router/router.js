@@ -4,7 +4,7 @@
  * @Author: william
  * @Date: 2021-11-03 16:40:10
  * @LastEditors: william
- * @LastEditTime: 2021-11-03 18:49:39
+ * @LastEditTime: 2021-11-04 17:19:59
  * @For What?:
  */
 import Vue from 'vue'
@@ -27,6 +27,6 @@ router.beforeEach((to, from, next) => {
 })
 
 router.afterEach((to, from) => {
-    console.log()
+    console.log(1111)
 })
 export { router, RouterMount }

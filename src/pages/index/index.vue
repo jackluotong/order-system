@@ -4,14 +4,17 @@
  * @Author: william
  * @Date: 2021-11-03 11:17:01
  * @LastEditors: william
- * @LastEditTime: 2021-11-03 18:33:34
+ * @LastEditTime: 2021-11-04 17:29:36
 -->
 <template>
     <view class="content">
         <image class="logo" src="/static/photos/1.png"></image>
         <view>
-            <button @click="goto('/pages/welcome/welcome')">navigator</button>
-            <router-view></router-view>
+            <!-- <button @click="goto('/pages/welcome/welcome')">navigator</button> -->
+            <navigator url="/pages/welcome/welcome">
+                <button>开始</button>
+            </navigator>
+            <button @click="goto">router</button>
         </view>
     </view>
 </template>
@@ -26,9 +29,7 @@ export default {
     onLoad() {},
     methods: {
         goto() {
-            uni.navigator({
-                url,
-            })
+            this.router.push({ name: 'welcome' })
         },
     },
 }

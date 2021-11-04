@@ -4,12 +4,14 @@
  * @Author: william
  * @Date: 2021-11-03 15:30:16
  * @LastEditors: william
- * @LastEditTime: 2021-11-03 17:37:55
+ * @LastEditTime: 2021-11-04 17:14:22
  * @For What?: 
 -->
 <template>
     <view>
-        <title>ad</title>
+        <view>
+            <button>welcome</button>
+        </view>
     </view>
 </template>
 
