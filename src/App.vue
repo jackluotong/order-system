@@ -4,7 +4,7 @@
  * @Author: william
  * @Date: 2021-11-03 11:17:01
  * @LastEditors: william
- * @LastEditTime: 2021-11-03 18:26:25
+ * @LastEditTime: 2021-11-09 18:38:48
  * @For What?: 
 -->
 <script>
@@ -13,10 +13,13 @@ export default {
         console.log('App Launch')
     },
     onShow: function () {
-        console.log('App Show')
+        console.log('App Show', this.globalData)
     },
     onHide: function () {
         console.log('App Hide', ROUTES)
+    },
+    globalData: {
+        name: 'jack',
     },
 }
 </script>

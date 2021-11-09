@@ -4,7 +4,14 @@
  * @Author: william
  * @Date: 2021-11-04 17:34:47
  * @LastEditors: william
- * @LastEditTime: 2021-11-04 17:35:51
+ * @LastEditTime: 2021-11-09 17:49:08
  */
-const allROUTer = []
+const allROUTer = [
+    {
+        path: 'pages/welcome/welcome',
+        name: 'welcome',
+        aliasPath: '/',
+        meta: [],
+    },
+]
 export { allROUTer }

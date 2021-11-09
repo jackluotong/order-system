@@ -8,8 +8,9 @@
         },
         {
             "path": "pages/welcome/welcome",
+            "name": "welcome",
             "style": {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "welcome",
                 "enablePullDownRefresh": false
             }
         },
@@ -260,6 +261,13 @@
         },
         {
             "path": "pages/single-restaurants/single-restaurants",
+            "style": {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/login/login",
             "style": {
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false

@@ -4,10 +4,11 @@
  * @Author: william
  * @Date: 2021-11-03 11:17:01
  * @LastEditors: william
- * @LastEditTime: 2021-11-04 17:29:36
+ * @LastEditTime: 2021-11-09 18:40:43
 -->
 <template>
     <view class="content">
+        <text>{{ this.globalData.name }}</text>
         <image class="logo" src="/static/photos/1.png"></image>
         <view>
             <!-- <button @click="goto('/pages/welcome/welcome')">navigator</button> -->
@@ -15,6 +16,7 @@
                 <button>开始</button>
             </navigator>
             <button @click="goto">router</button>
+            <button @click="goto1">router1</button>
         </view>
     </view>
 </template>
@@ -27,9 +29,21 @@ export default {
         }
     },
     onLoad() {},
+    onShow() {
+        console.log(this.globalData)
+    },
     methods: {
         goto() {
-            this.router.push({ name: 'welcome' })
+            // this.$router.push({ name: 'welcome' })
+            uni.navigateTo({
+                url: '/pages/welcome/welcome?name=jack&age=26',
+            })
+        },
+        goto1() {
+            this.$Router.push({
+                name: 'welcome',
+                params: { sex: 'boy', address: 'sh' },
+            })
         },
     },
 }

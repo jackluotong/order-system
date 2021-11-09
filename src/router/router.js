@@ -4,17 +4,16 @@
  * @Author: william
  * @Date: 2021-11-03 16:40:10
  * @LastEditors: william
- * @LastEditTime: 2021-11-04 17:19:59
+ * @LastEditTime: 2021-11-09 18:42:03
  * @For What?:
  */
-import Vue from 'vue'
 import { RouterMount, createRouter } from 'uni-simple-router'
 const router = createRouter({
     platform: process.env.VUE_APP_PLATFORM,
     routes: [
         ...ROUTES,
         {
-            path: '',
+            path: '/',
             redirect: (to) => {
                 return { name: '404' }
             },
@@ -24,6 +23,10 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
     next()
+    // if (to.name === 'login') {
+    // } else {
+    //     next()
+    // }
 })
 
 router.afterEach((to, from) => {
