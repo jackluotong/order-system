@@ -4,11 +4,7 @@
  * @Author: william
  * @Date: 2021-11-03 11:17:01
  * @LastEditors: william
-<<<<<<< refs/remotes/origin/v1.0.0
- * @LastEditTime: 2021-11-09 18:40:43
-=======
- * @LastEditTime: 2021-11-09 15:35:24
->>>>>>> update router config
+ * @LastEditTime: 2021-11-14 13:10:40
 -->
 <template>
     <view class="content">
@@ -19,12 +15,11 @@
             <navigator url="/pages/welcome/welcome">
                 <button>开始</button>
             </navigator>
-<<<<<<< refs/remotes/origin/v1.0.0
             <button @click="goto">router</button>
             <button @click="goto1">router1</button>
-=======
+            =======
             <button @click="goto()">router</button>
->>>>>>> update router config
+            >>>>>>> update router config
         </view>
     </view>
 </template>
@@ -36,7 +31,6 @@ export default {
             title: '一起来干饭',
         }
     },
-<<<<<<< refs/remotes/origin/v1.0.0
     onLoad() {},
     onShow() {
         console.log(this.globalData)
@@ -52,18 +46,6 @@ export default {
             this.$Router.push({
                 name: 'welcome',
                 params: { sex: 'boy', address: 'sh' },
-=======
-    onLoad() {
-        console.log('page is loaded...')
-    },
-    onunload() {
-        console.log('unloaded...')
-    },
-    methods: {
-        goto() {
-            uni.navigateTo({
-                url: '/pages/welcome/welcom',
->>>>>>> update router config
             })
         },
     },
